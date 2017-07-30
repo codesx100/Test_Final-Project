@@ -112,7 +112,7 @@ $statement3->closeCursor();
                     <input type="hidden" name="product_id"
                            value="<?php echo $product['itemID']; ?>">
                     <input type="hidden" name="category_id"
-                           value="<?php echo $product['ListID']; ?>">
+                           value="<?php echo $product['EventCode']; ?>">
                     <input type="submit" value="Completed">
                 </form></td>
             </tr>
